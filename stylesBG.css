@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    z-index: 1;
+    background: linear-gradient(-45deg, black, rgb(87, 164, 87), rgb(178, 153, 153), rgb(255, 255, 255));
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+}
+
+.header ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.btn {
+    border-radius: 40px;
+}
+
+.btn-primary {
+    background: darkgoldenrod;
+    color: white;
+}
+
+
