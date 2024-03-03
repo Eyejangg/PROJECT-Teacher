@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 03, 2024 at 03:44 PM
+-- Generation Time: Mar 03, 2024 at 04:27 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -68,7 +68,11 @@ CREATE TABLE `rank` (
 
 INSERT INTO `rank` (`d_id`, `d_name`) VALUES
 (1, 'อธิการบดี'),
-(2, 'คณบดี');
+(2, 'คณบดี'),
+(3, 'ผู้บัญชาการ'),
+(4, 'ศาสตราจารย์'),
+(5, 'รองศาสตราจารย์'),
+(6, 'ผู้ช่วยศาสตราจารย์');
 
 --
 -- Indexes for dumped tables
@@ -100,7 +104,7 @@ ALTER TABLE `person`
 -- AUTO_INCREMENT for table `rank`
 --
 ALTER TABLE `rank`
-  MODIFY `d_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `d_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
